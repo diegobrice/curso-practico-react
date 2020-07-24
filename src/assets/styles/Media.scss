@@ -1,0 +1,27 @@
+@media only screen and (max-width: 600px) {
+  .main {
+    height: 200px;
+  }
+
+  .main h2 {
+    padding-top: 50px;
+  }
+
+  .main__title {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .footer {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .footer a {
+    padding-bottom: 15px;
+    margin-top: 0;
+  }
+}

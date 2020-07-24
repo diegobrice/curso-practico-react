@@ -1,0 +1,23 @@
+.footer {
+  margin: 0 auto;
+  display: flex;
+  /* background-color: rgba(0, 0, 0, 0.1); */
+  height: 60px;
+  max-width: 500px;
+  min-width: 300px;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  line-height: 18px;
+  font-size: 14px;
+}
+
+.footer a {
+  margin: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
