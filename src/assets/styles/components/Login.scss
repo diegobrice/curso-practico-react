@@ -1,0 +1,136 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.login {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  min-height: calc(100vh - 140px);
+  /* background-color: red; */
+}
+
+.login__container {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 40px;
+  min-height: 420px;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.login__container--form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__container--remenber {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.login__container--socialmedia>div {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.login__container--socialmedia img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.login__container--register {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.login__container--register a {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.input {
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid white;
+  color: white;
+  font-size: 16px;
+  outline: 0;
+  margin: 15px 0;
+  padding: 3px 0;
+  width: 100%;
+}
+
+.input::placeholder {
+  color: white;
+}
+
+.button {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  cursor: pointer;
+  margin: 15px 0;
+  height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+}
+
+.button:focus {
+  outline: 0;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+
+.error {
+  height: calc(100vh - 140px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.error h2 {
+  font-size: 120px;
+  line-height: 120px;
+  display: inline-flex;
+}
+
+.error p {
+  font-size: 30px;
+}
+
+.error .btn {
+  padding: 10px 30px;
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn:focus {
+  outline: 0;
+  background-color: rgba(255, 255, 255, 0.1);
+}

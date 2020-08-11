@@ -6,6 +6,11 @@
   justify-content: space-between;
 }
 
+.isLogin,
+.isRegister {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .header__img {
   height: 40px;
   margin: 20px 20px;
@@ -23,6 +28,8 @@
 
 .header__menu--profile img {
   height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .header__menu ul {
